@@ -14,6 +14,13 @@ import LinkDemo from "./components/LinkDemo";
 import ContainerDemo from "./components/ContainerDemo";
 import SnackbarDemo from "./components/SnackbarDemo";
 import ProgressBarDemo from "./components/ProgressBarDemo";
+import ListDemo from "./components/ListDemo";
+import AccordionDemo from "./components/AccordionDemo";
+import AutocompleteDemo from "./components/AutocompleteDemo";
+import DrawerDemo from "./components/DrawerDemo";
+import AlertDemo from "./components/AlertDemo";
+import RatingDemo from "./components/RatingDemo";
+import ImageListDemo from "./components/ImageListDemo";
 function App() {
   return (
     <div className="App">
@@ -43,14 +50,35 @@ function App() {
         <Typography variant="h4">Menu</Typography>
         <MenuDemo />
         <br /> <br />
+        <Typography variant="h4">List</Typography>
+        <ListDemo />
+        <br /> <br />
         <Typography variant="h4">Dialog</Typography>
         <DialogDemo />
         <br /> <br />
+        <br /> <br />
+        <Typography variant="h4">Alert</Typography>
+        <AlertDemo />
         <Typography variant="h4">Snackbar</Typography>
         <SnackbarDemo />
         <br /> <br />
         <Typography variant="h4">Progress</Typography>
         <ProgressBarDemo />
+        <br /> <br />
+        <Typography variant="h4">Accordion</Typography>
+        <AccordionDemo />
+        <br /> <br />
+        <Typography variant="h4">Autocomplete</Typography>
+        <AutocompleteDemo />
+        <br /> <br />
+        <Typography variant="h4">Drawer</Typography>
+        <DrawerDemo />
+        <br /> <br />
+        <Typography variant="h4">Rating</Typography>
+        <RatingDemo />
+        <br /> <br />
+        <Typography variant="h4">ImageList</Typography>
+        <ImageListDemo />
       </div>
     </div>
   );
