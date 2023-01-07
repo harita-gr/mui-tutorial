@@ -21,10 +21,14 @@ import DrawerDemo from "./components/DrawerDemo";
 import AlertDemo from "./components/AlertDemo";
 import RatingDemo from "./components/RatingDemo";
 import ImageListDemo from "./components/ImageListDemo";
+import DataGridDemo from "./components/DataGridDemo";
+import GridSystemDemo from "./components/GridSystemDemo";
+import GridNavBarDemo from "./components/GridNavBarDemo";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <GridNavBarDemo />
       <div style={{ marginTop: "100px" }}>
         <Typography variant="h4">Button</Typography>
         <ButtonDemo />
@@ -79,6 +83,13 @@ function App() {
         <br /> <br />
         <Typography variant="h4">ImageList</Typography>
         <ImageListDemo />
+        <br /> <br />
+        <Typography variant="h4">DataGrid</Typography>
+        <DataGridDemo />
+        <br /> <br />
+        <Typography variant="h4">Grid System</Typography>
+        <br /> <br />
+        <GridSystemDemo />
       </div>
     </div>
   );
