@@ -24,6 +24,7 @@ import ImageListDemo from "./components/ImageListDemo";
 import DataGridDemo from "./components/DataGridDemo";
 import GridSystemDemo from "./components/GridSystemDemo";
 import GridNavBarDemo from "./components/GridNavBarDemo";
+import Auth from "./components/Auth";
 function App() {
   return (
     <div className="App">
@@ -90,6 +91,9 @@ function App() {
         <Typography variant="h4">Grid System</Typography>
         <br /> <br />
         <GridSystemDemo />
+        <br /> <br />
+        <Typography variant="h4">Login & Register Form</Typography>
+        <Auth />
       </div>
     </div>
   );
